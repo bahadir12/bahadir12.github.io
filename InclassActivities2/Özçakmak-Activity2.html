@@ -9,10 +9,11 @@
 	
 
 <body>
-	<table>
+<h1>Employee Table</h1>
+	<table class="centerTable">
 		<thead>
 			<tr>
-			    <th>Department</th>
+			    <th >Department</th>
 				<th>Name</th>
 				<th>E-mail</th>
 				<th class="right">Years of Service</th>
@@ -20,10 +21,10 @@
 		</thead>
 		<tbody>
 			<tr>
-			    <td rowspan="3">Editorial</td>
+			    <td class="colDepartment"rowspan="3">Editorial</td>
 				<td>Joel Murach</td>
 				<td>joelmurach@yahoo.com</td>
-				<td class="right">22</td>
+				<th class="yearOfServiceColor">22</th>
 			</tr>
 			<tr>
 				<td>Anne Boehm</td>
@@ -33,31 +34,36 @@
 			<tr>
 				<td>Zak Ruvalcaba</td>
 				<td>zak@modulemedia.com</td>
-				<td class="right">4</td>
+				<th class=" yearOfServiceColor">4</th>
 			</tr>
 			<tr>
-			    <td rowspan="3">Marketing</td>
+			    <th class="colDepartment"rowspan="2">Marketing</th>
 				<td>Judy Taylor</td>
 				<td>judy@murach.com</td>
-				<td class="right">39</td>
+				<td class="right ">39</td>
 			</tr>
 			<tr>
 				<td>Cyndi Vasquez</td>
 				<td>cyndi@murach.com</td>
-				<td class="right">10</td>
+				<th class=" yearOfServiceColor">10</th>
 			</tr>
 			<tr>
-				<td rowspan="3">Customer Service</td>
+				<th class="colDepartment" rowspan="2">Customer Service</th>
 				<td>Kelly Slivkoff</td>
 				<td>kelly@murach.com</td>
 				<td class="right">25</td>
 			</tr>
 			<tr>
 				<td>Juliette Baylon</td>
-				<td>juliette@murach.com</td>
-				<td class="right">1</td>
+				<td>juliette@murach.com</td> 
+				<th class=" yearOfServiceColor">1</th>
+			</tr>
+			<tr>
+				<td class="colSum" colspan="3" > Total Years Of Service</td>
+				<td class="right" ><b>105</b></td>
 			</tr>
 		</tbody>
+
 	</table>
 	<footer>
 		<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> <br>
@@ -65,3 +71,5 @@
 	</footer>
 </body>
 </html>
+
+
