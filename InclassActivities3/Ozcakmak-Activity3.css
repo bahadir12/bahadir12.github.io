@@ -3,7 +3,8 @@ Lab 3 CSS styles
 CSS styles for Ultimate frisbee page
 */
 
-body {  max-width: 500px;
+body {  
+max-width: 500px;
   margin: auto;
  background-image:url("Backgroundimg.jpg");
   background-position: center;
@@ -24,11 +25,6 @@ border: 5px solid black;
 border: 5px solid red;
 }
 
-#main img{
-
-}
-
-
 footer {
 text-align: center;
 font-size:small;
@@ -38,7 +34,4 @@ font-size:small;
 }
 .altrow:nth-child(even) {
   background-color: purple;
-}
-h2,h1{
-
 }
