@@ -1,0 +1,46 @@
+body{ height:100vh; margin:0; }
+footer{ min-height:60px; background:coral; }
+body{
+    display:flex;
+    flex-direction:column;
+    }
+footer{
+    margin-top:auto;
+}
+.navbar-custom{
+            background-color:#222222 ;
+             color: burlywood;
+        }
+        .nav-link{
+            color:white;
+        }
+        .navbar-collapse{
+            flex-grow: 0;
+            list-style-type: none;
+        }
+        .navbar-brand{
+            margin-left: 100px;
+            color: white;
+        }
+        .signin{
+            margin-left: 100px;
+        }
+        .form-inline{
+            margin-left: 100px;
+        }
+        .btn-outline-success{
+            color: #b3d4fc;
+            border-color: #b3d4fc;
+        }
+        .navbar-text{
+            color: black;
+            border-style: solid;
+            background-color: coral;
+            border-color: coral;
+            margin-left: 150px;
+        }
+a{
+    color: white;
+}
+
+
