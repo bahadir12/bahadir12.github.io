@@ -3,7 +3,8 @@ var mouseButton = document.querySelector("#movingButton");
 var index = 0;
 
 var max_delay = 500;
-
+    mouseButton.style.left = "850px";
+    mouseButton.style.top = "350px";
 mouseButton.addEventListener("mouseover",()=>setTimeout(change,max_delay));
 
 var buttonClick = document.getElementById("movingButton");

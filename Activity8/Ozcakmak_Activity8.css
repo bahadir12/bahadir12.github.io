@@ -2,7 +2,6 @@ body{
   background-color: white;
   width : 100%;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 
@@ -16,5 +15,6 @@ body{
 }
 
 footer{
-	margin-bottom:auto;
+	margin-left:1800px;
+	margin-top:30%;
 }
