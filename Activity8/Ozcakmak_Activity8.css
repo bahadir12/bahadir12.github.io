@@ -4,12 +4,9 @@ body{
 
 
 #movingButton{
-    margin-left: auto;
     position: absolute;
-	padding: 13px 30px;
+	padding: 14px 38px;
 	display: block;
-    margin-right: auto;
-	background-color: #008CBA;
 }
 
 footer{
