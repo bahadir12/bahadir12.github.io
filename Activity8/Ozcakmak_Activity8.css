@@ -1,0 +1,20 @@
+body{
+  background-color: white;
+  width : 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#movingButton{
+    margin-left: auto;
+    position: absolute;
+	padding: 13px 30px;
+	display: block;
+    margin-right: auto;
+	background-color: #008CBA;
+}
+
+footer{
+	margin-bottom:auto;
+}
