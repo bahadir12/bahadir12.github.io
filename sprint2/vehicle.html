@@ -6,11 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="navbar.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"/>
 
 </head>
-<body>
+<body style="height: 100%">
 <header>
     <!-- NAVBAR  -->
 <nav class="navbar navbar-expand-lg  navbar-custom">
@@ -46,10 +47,155 @@
 </nav>
 </header>
 <!-- İNSİDE vehicle body -->
-<div>
-    <h1 style="text-align: center"> Vehicles</h1>
-</div>
 
+    <div class="container " style="height: 100%">
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ALMANYA MANNHEIM TRAFİĞE ÇIKIŞLI -
+                        AKÜLER VE LASTİKLER YENİ DEĞİŞTİRİLMİŞ -
+                        HİÇ LPG TAKILMAMAMIŞTIR -
+                        V8, 388 BEYGİR, 530 NM TORK -
+                        OBSIDIAN SİYAH -
+                        SUNROOF -
+                        ARKA SAĞ VE SOL KAPIDA ELEKTRİKLİ PERDE -
+                        ARKA CAM ELEKTRİKLİ MAKAM PERDESİ -
+                        SOĞUTMALI, ISITMALI VE HAFIZALI ÖN KOLTUKLAR - İletisim 05553231122
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Add Favorite</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-auto">
+            <div class=" card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px;" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card1" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card2" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card3" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px"  >
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card4" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row row-cols-auto">
+            <div class=" card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px;" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card1" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card2" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card3" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px"  >
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card4" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row row-cols-auto">
+            <div class=" card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px;" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card1" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card2" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card3" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px"  >
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card4" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row row-cols-auto">
+            <div class=" card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px;" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card1" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card2" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px">
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card3" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+
+            </div>
+            <div  class="card col" style="margin-right: 30px;padding-left: 0px; margin-top: 20px"  >
+                <img style="height: 200px;width: 253px" class="card-img-top" src="araba.PNG" alt="Card image cap" onclick="deneme()">
+                <div id="card4" class="card-body">
+                    <p class="card-text">2020 model 300.000 TL</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</body>
 <!-- FOOTER AREA -->
 <footer>
     <div class="row">
@@ -68,11 +214,17 @@
         </div>
     </div>
 </footer>
+<script type="text/javascript">
 
+    function deneme(){
+        console.log("11111")
+        $("#exampleModal").modal('show');
+    }
+
+</script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-</body>
 
 </html>

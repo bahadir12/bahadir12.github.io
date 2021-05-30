@@ -42,5 +42,8 @@ footer{
 a{
     color: white;
 }
-
+.container{
+    background-color: white;
+    height: 800px;
+}
 
