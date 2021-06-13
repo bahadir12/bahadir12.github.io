@@ -82,28 +82,28 @@
                 <div class="card border-info mx-sm-1 p-3">
                     <div class="card border-info shadow text-info p-3 my-card" ><span class="fa fa-car" aria-hidden="true"></span></div>
                     <div class="text-info text-center mt-3"><h4>Cars</h4></div>
-                    <div id="deneme0" class="text-info text-center mt-2"><h1></h1></div>
+                    <div id="card0" class="text-info text-center mt-2"><h1></h1></div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card border-success mx-sm-1 p-3">
                     <div class="card border-success shadow text-success p-3 my-card"><span class="fa fa-eye" aria-hidden="true"></span></div>
                     <div class="text-success text-center mt-3"><h4>Views</h4></div>
-                    <div id="deneme1" class="text-success text-center mt-2"><h1></h1></div>
+                    <div id="card1" class="text-success text-center mt-2"><h1></h1></div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card border-danger mx-sm-1 p-3">
                     <div class="card border-danger shadow text-danger p-3 my-card" ><span class="fa fa-heart" aria-hidden="true"></span></div>
                     <div class="text-danger text-center mt-3"><h4>Likes</h4></div>
-                    <div id="deneme2" class="text-danger text-center mt-2"><h1></h1></div>
+                    <div id="card2" class="text-danger text-center mt-2"><h1></h1></div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card border-warning mx-sm-1 p-3">
                     <div class="card border-warning shadow text-warning p-3 my-card" ><span class="fa fa-inbox" aria-hidden="true"></span></div>
                     <div class="text-warning text-center mt-3"><h4>Messages</h4></div>
-                    <div id="deneme3" class="text-warning text-center mt-2"><h1></h1></div>
+                    <div id="card3" class="text-warning text-center mt-2"><h1></h1></div>
                 </div>
             </div>
         </div>
@@ -136,32 +136,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
 <script type="text/javascript">
-    $(document).ready(function (){
-
-
-
-        console.log("ready");
-        $.ajax({
-            url:"deneme.json",
-            dataType:"json",
-            async:false,
-            type:"GET",
-            success:function (data){
-                console.log("oldu");
-                for (var i=0;i<4;i++){
-                    $("#deneme"+i+"").append(data["teammembers"][i].bio);
-                    $("#deneme"+i+"").css('font-size',40);
-                }
-
-            },
-            error(){
-                console.log("error");
-            }
-        })
-    })
-    //$("#deneme12").append(data["teammembers"][0].bio);
-
-    //url:"https://calories-tracker.free.beeceptor.com/%22",
-
 </script>
 </html>

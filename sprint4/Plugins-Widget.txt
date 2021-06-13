@@ -1,7 +1,0 @@
-HomePage Carousel-Information Cards
-
-Log-in page Button Validation Autocomplete
-
-About us Scrollspy
-
-Vehicle Card click card Pop-up (information)
